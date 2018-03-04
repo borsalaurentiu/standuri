@@ -1,0 +1,92 @@
+body {
+    width: 1024px;
+    margin: 50px auto;
+}
+
+#header {
+    margin: 10px auto;
+    width: 840px;
+}
+
+#tables {
+    margin: 20px auto;
+    width: 840px;
+}
+
+.table {
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wall {
+    background-image: url("wall.jpg");
+    margin-bottom: 4px;
+}
+
+.available {
+    cursor: pointer;
+    background-color: darkseagreen;
+}
+
+/* vertical table size 2m */
+.vts2 {
+    width: 30px;
+    height: 60px;
+}
+
+/* horizontal table size 2m */
+.hts2 {
+    width: 60px;
+    height: 30px;
+}
+
+.vts4 {
+    width: 30px;
+    height: 120px;
+}
+
+.hts4 {
+    width: 120px;
+    height: 30px;
+}
+
+.hts6 {
+    width: 180px;
+    height: 30px;
+}
+
+.hts8 {
+    width: 240px;
+    height: 30px;
+}
+
+.vts8 {
+    width: 30px;
+    height: 240px;
+}
+
+.bl {
+    border-left: 1px solid black;
+}
+
+.br {
+    border-right: 1px solid black;
+}
+
+.bt {
+    border-top: 1px solid black;
+}
+
+.bb {
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+.empty {
+    border: 0;
+}
